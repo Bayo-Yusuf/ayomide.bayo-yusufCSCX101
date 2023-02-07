@@ -15,6 +15,7 @@ fn main() {
     //omit the end index
     let slice3 = &numbers[2..];
     //This means the slice starts from index 2 and goes up to index 5 (exlcusive)
+    println!("Index 2 to 0 sliced{:?}", slice3);
 
      //omit the start index and the end index
      //reference the whole array
